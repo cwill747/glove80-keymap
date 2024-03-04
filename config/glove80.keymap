@@ -4951,7 +4951,7 @@ macros {
                &trans         &none           &none    &kp UP_ARROW             &none    &kp END                                                                                                                        &kp RPAR         &kp KP_N7     &kp KP_N8     &kp KP_N9     &kp KP_MINUS        &kp SCROLLLOCK
                &trans         &none  &kp LEFT_ARROW  &kp DOWN_ARROW   &kp RIGHT_ARROW  &kp PG_UP                                                                                                                     &kp PERCENT         &kp KP_N4     &kp KP_N5     &kp KP_N6      &kp KP_PLUS            &kp KP_NUM
              &kp LALT     &kp K_APP           &none         &kp F11           &kp F12  &kp PG_DN  &tog LAYER_Function  &tog &none  &tog LAYER_Typing  &tog LAYER_Typing             &none  &tog LAYER_System    &kp COMMA         &kp KP_N1     &kp KP_N2     &kp KP_N3     &kp KP_ENTER              &kp LALT
- &magic LAYER_Magic 0      &kp CAPS         &kp INS         &kp F11  &tog LAYER_Emoji               &tog LAYER_Cursor  &tog LAYER_Number   &tog LAYER_Lower   &tog LAYER_Lower  &tog LAYER_Mouse  &tog LAYER_Symbol               &tog LAYER_World     &kp KP_N0    &kp KP_DOT     &kp KP_ENTER  &magic LAYER_Magic 0
+ &magic LAYER_Magic 0      &kp CAPS         &kp INS         &kp F11           &kp END  &tog LAYER_Cursor  &tog LAYER_Number   &tog LAYER_Lower   &tog LAYER_Lower  &tog LAYER_Mouse  &tog LAYER_Symbol               &tog LAYER_World     &kp KP_N0    &kp KP_DOT     &kp KP_ENTER  &magic LAYER_Magic 0
             >;
         };
 
