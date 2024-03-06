@@ -7,12 +7,11 @@
  */
 
 #include <behaviors.dtsi>
+/* Include all behaviour includes needed */
+#include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
-#include <dt-bindings/zmk/ext_power.h>
-#include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/rgb.h>
-#include <dt-bindings/zmk/mouse.h>
 
 /* Automatically generated layer name #define */
 #define LAYER_QWERTY 0
@@ -43,7 +42,6 @@
 #endif
 
 /* Custom Device-tree */
-
 
 
 /* Glove80 system behavior & macros */
@@ -316,8 +314,8 @@
 // - https://en.wikipedia.org/wiki/Table_of_keyboard_shortcuts
 //
 #ifndef OPERATING_SYSTEM
-//#define OPERATING_SYSTEM 'L' // linux
-#define OPERATING_SYSTEM 'M' // macos
+#define OPERATING_SYSTEM 'L' // linux
+//#define OPERATING_SYSTEM 'M' // macos
 //#define OPERATING_SYSTEM 'W' // windows
 #endif
 #if OPERATING_SYSTEM == 'M'
@@ -4600,6 +4598,10 @@ macros {
         tap-ms = <SELECT_WORD_DELAY>;
         bindings = <&kp LS(UP) &kp LS(_HOME)>;
     )
+};
+/*HACK*/};
+
+/*HACK*//{
 
 //////////////////////////////////////////////////////////////////////////
 //
@@ -4721,6 +4723,7 @@ macros {
     #define SCRL_LEFT
     #define SCRL_RIGHT
 #endif
+/*HACK*//{
 };
 
     /* Automatically generated keymap */
