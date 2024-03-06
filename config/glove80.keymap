@@ -4685,14 +4685,15 @@ macros {
     #define ZMK_MOUSE_DEFAULT_SCRL_VAL MOUSE_SCROLL_MAXIMUM_SPEED
     #include <dt-bindings/zmk/mouse.h>
     &mmv {
-      delay-ms = <MOUSE_MOTION_DELAY>;
-      acceleration-exponent = <MOUSE_MOTION_ACCELERATION_EXPONENT>;
-      time-to-max-speed-ms = <MOUSE_MOTION_TIME_TO_MAXIMUM_SPEED>;
+        acceleration-exponent = <1>;      // 1
+        time-to-max-speed-ms = <0>;    // 40
+        delay-ms = <0>;                   // 0
     };
+
     &msc {
-      delay-ms = <MOUSE_SCROLL_DELAY>;
-      acceleration-exponent = <MOUSE_SCROLL_ACCELERATION_EXPONENT>;
-      time-to-max-speed-ms = <MOUSE_SCROLL_TIME_TO_MAXIMUM_SPEED>;
+        acceleration-exponent = <1>;      // 0
+        time-to-max-speed-ms = <0>;    // 40
+        delay-ms = <0>;                   // 10
     };
     // ==== MOUSE-KEY <section ends> =====
 #else
