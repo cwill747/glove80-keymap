@@ -4678,7 +4678,7 @@ macros {
 #ifndef MOUSE_SCROLL_MAXIMUM_SPEED
 #define MOUSE_SCROLL_MAXIMUM_SPEED 10
 #endif
-/*HACK*/};
+
 #if __has_include(<zmk/events/mouse_tick.h>)
     // ==== MOUSE-KEY <section begins> ====
     #define ZMK_MOUSE_DEFAULT_MOVE_VAL MOUSE_MOTION_MAXIMUM_SPEED
