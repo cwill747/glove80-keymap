@@ -10,6 +10,9 @@ These steps will get you using your keymap on your keyboard in the fastest time 
 
 If you are looking to dig deeper into ZMK and develop new functionality, it is recommended to follow the steps of installing ZMK as found on the official ZMK documentation site (linked below).
 
+## Legend
+![Base Layer](https://github.com/cwill747/glove80-keymap/assets/284849/33f64513-725c-4850-8f61-ed4f894ece92)
+
 ## Resources
 - The [official MoErgo Glove80 Support](https://moergo.com/glove80-support) web site. Glove80 documentation and other technical resources.
 - The [official MoErgo Discord Server](https://moergo.com/discord). Instant conversations with other Glove80 users.
