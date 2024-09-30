@@ -14,7 +14,7 @@ jobs:
           repository: bryanforbes/zmk
           ref: mouse-3.2-moergo
           path: src
-      - uses: cachix/install-nix-action@V28
+      - uses: cachix/install-nix-action@v29
         with:
           nix_path: nixpkgs=channel:nixos-22.05
       - uses: cachix/cachix-action@v15
